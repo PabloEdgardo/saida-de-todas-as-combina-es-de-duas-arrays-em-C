@@ -12,15 +12,9 @@ int main() {
         if (i == 2 && o >= 2) {
                 continue; // Pula para a próxima iteração
             }
-            printf("%s %s:%d \n", regi[i], dire[o], o);
+            printf("%s %s \n", regi[i], dire[o]);
         }
     }
     return 0;
 
 }
-    /* checkagem do array
-    for (int i = 0; dire[i]; i++)
-    {
-        printf("%d:%s \n", i, dire[i]);
-    }
-    */
